@@ -1,0 +1,5 @@
+a= int(input())
+b=set( input().split())
+c= int(input())
+d=set( input().split())
+print('\n'.join(sorted(d^b, key=int)))

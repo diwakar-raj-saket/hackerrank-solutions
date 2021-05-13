@@ -1,5 +1,4 @@
 from collections import Counter
-
 x = int(input())
 shoes = list(map(int,input().split()))
 shoel = Counter(shoes)
